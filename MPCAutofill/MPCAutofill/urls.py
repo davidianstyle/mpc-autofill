@@ -21,8 +21,8 @@ from django.urls import include, path
 from django.views.generic.base import RedirectView
 
 urlpatterns = [
-    # the below URL ensures that <base URL>/favicon.ico works as expected
-    path("favicon.ico", RedirectView.as_view(url=static("cardpicker/favicon.ico"))),
+    # the below URL ensures that <base URL>/dstylz.ico works as expected
+    path("dstylz.ico", RedirectView.as_view(url=static("cardpicker/dstylz.ico"))),
     path("admin/", admin.site.urls),
     path("", include("cardpicker.urls")),
     # path("accounts/", include("accounts.urls")),

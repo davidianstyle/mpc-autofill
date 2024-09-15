@@ -64,7 +64,7 @@ export default function ProjectNavbar() {
         <MaxWidthContainer className="justify-content-center align-middle">
           <Navbar.Brand href="/" as={Link}>
             <Image
-              src="/logolowres.png"
+              src="/dstylz.png"
               alt="logo"
               width={NavbarLogoHeight}
               height={NavbarLogoHeight}

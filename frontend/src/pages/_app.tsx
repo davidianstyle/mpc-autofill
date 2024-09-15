@@ -3,7 +3,7 @@ import "@/styles/custom.css";
 
 import { AppProps } from "next/app";
 // unfortunately, for static deployment, we need to specify our Bootswatch theme font here again :/
-// google font config retrieved from https://github.com/thomaspark/bootswatch/blob/v5/dist/superhero/_bootswatch.scss
+// google font config retrieved from https://github.com/thomaspark/bootswatch/blob/v5/dist/pulse/_bootswatch.scss
 // defining this here according to advice in https://github.com/vercel/next.js/issues/43674#issue-1474226764
 import { Lato } from "next/font/google";
 
