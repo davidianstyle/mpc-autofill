@@ -37,11 +37,11 @@ services:
   nginx:
     image: mpcautofill_nginx
     container_name: mpcautofill_nginx
-    depends_on:
-      - django
     build:
       context: ..
       dockerfile: ./docker/nginx/Dockerfile
+    depends_on:
+      - django
     ports:
       - "80:80" # TODO: support ports other than 80
 
